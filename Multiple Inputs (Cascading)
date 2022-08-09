@@ -1,0 +1,15 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    char a;
+    int num;
+
+    cout << " please enter a character and an integer with a smile: ";
+    cin >> a >> num;
+
+    cout << "Character: " << a << endl;
+    cout << "Number: " << num;
+
+    return 0;
+}
